@@ -11,7 +11,7 @@ ensembl_gtf = 'data/Homo_sapiens.GRCh38.107.gtf'
 hgnc_file = 'data/HGNC_names.txt'
 olink_file = 'data/olink_protein_map_1.5k_v1-Manifest.txt'
 
-color = {'pos': '#0571b0', 'neg': '#ca0020', 'both': '#666'}
+color = {'pos': 'positive', 'neg': 'negative', 'both': 'both'}
 color_opacity = 0.4
 gene_width = 1000
 
@@ -73,13 +73,13 @@ with open(output_file, 'w') as f:
 	for gene, prot in interactions:
 		gene_pos, prot_pos = ensg2pos[hgnc2ensg[gene]], ensg2pos[hgnc2ensg[prot]]
 		
-		source_chrom = 'chr{}'.format(gene_pos[0])
+		source_chrom = 'hs{}'.format(gene_pos[0])
 		source_start = gene_pos[1]
-		source_end = source_start + gene_width
+		source_end = gene_pos[2]#source_start + gene_width
 
-		target_chrom = 'chr{}'.format(prot_pos[0])
+		target_chrom = 'hs{}'.format(prot_pos[0])
 		target_start = prot_pos[1]
-		target_end = target_start + gene_width
+		target_end = prot_pos[2]#target_start + gene_width
 
 		print(source_chrom, source_start, source_end, target_chrom, target_start, target_end, 
 			'color='+color[interactions[(gene, prot)]], 
