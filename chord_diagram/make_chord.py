@@ -60,13 +60,13 @@ for row in csv.DictReader(open(collapsing_file), delimiter=';'):
 			beta = float(row['beta'].replace(',','.'))
 			inter = 'neg' if beta < 0 else 'pos'
 
-			#if model in collapsing_models:
-			if p <= pvalue_threshold:
-				if (gene, prot) in interactions:
-					if interactions[(gene, prot)] != inter:
-						interactions[(gene, prot)] = 'both'
-				else:
-					interactions[(gene, prot)] = inter
+			if model in collapsing_models:
+				if p <= pvalue_threshold:
+					if (gene, prot) in interactions:
+						if interactions[(gene, prot)] != inter:
+							interactions[(gene, prot)] = 'both'
+					else:
+						interactions[(gene, prot)] = inter
 
 print(len(complexes), 'complexes skipped', complexes)
 print(len(interactions), 'total interactions')
