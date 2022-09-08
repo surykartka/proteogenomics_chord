@@ -5,6 +5,7 @@ pvalue_threshold = 1e-8
 collapsing_models = ['ptv']
 
 output_file = 'circos/collapsing_links.txt'
+output_labels_file = 'circos/gene_labels.txt'
 
 
 ensembl_gtf = 'data/Homo_sapiens.GRCh38.107.gtf'
@@ -87,3 +88,20 @@ with open(output_file, 'w') as f:
 		print(source_chrom, source_start, source_end, target_chrom, target_start, target_end, 
 			'color='+color[interactions[(gene, prot)]], 
 			sep='\t', file=f)
+
+with open(output_labels_file, 'w') as f:
+	gene2count = {}
+	for gene, prot in interactions:
+		gene2count[gene] = gene2count.get(gene, 0) + 1
+		gene2count[prot] = gene2count.get(prot, 0) + 1
+
+	gene_count = sorted(gene2count.items(), key=lambda x: x[1], reverse=True)
+	for gene,count in gene_count[:10]:
+
+		gene_pos = ensg2pos[hgnc2ensg[gene]]
+		
+		source_chrom = 'hs{}'.format(gene_pos[0])
+		source_start = gene_pos[1]
+		source_end = gene_pos[2]
+
+		print(source_chrom, source_start, source_end, gene, sep='\t', file=f)
