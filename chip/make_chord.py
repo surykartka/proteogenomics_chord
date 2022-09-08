@@ -44,10 +44,16 @@ interactions = {}
 for row in csv.DictReader(open(chip_file), delimiter=';'):
 	if 'VAF10' in row['geno']:
 		gene = row['geno'].split('_')[0]
+
+		if gene != 'TET2':
+			continue
+
 		if gene == 'CH':
 			genes = ch_genes
 		else:
 			genes = [gene]
+
+
 
 		proteins = list(set(prot2genes[row['pheno'].split(':')[0]]))
 
@@ -68,10 +74,12 @@ for row in csv.DictReader(open(chip_file), delimiter=';'):
 print(len(interactions), 'total interactions')
 print()
 
-
+genes_all = set()
 with open(output_file, 'w') as f:
 	for gene, prot in interactions:
 		gene_pos, prot_pos = ensg2pos[hgnc2ensg[gene]], ensg2pos[hgnc2ensg[prot]]
+		genes_all.add(gene)
+		genes_all.add(prot)
 		
 		source_chrom = 'hs{}'.format(gene_pos[0])
 		source_start = gene_pos[1]
@@ -86,7 +94,7 @@ with open(output_file, 'w') as f:
 			sep='\t', file=f)
 
 with open(output_labels_file, 'w') as f:
-	for gene in ch_genes:
+	for gene in genes_all:
 
 		gene_pos = ensg2pos[hgnc2ensg[gene]]
 		
