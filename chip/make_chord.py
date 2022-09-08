@@ -1,7 +1,7 @@
 import csv
 
 chip_file = 'data/Master_CHIP.csv'
-pvalue_threshold = 1e-4
+pvalue_threshold = 1e-8
 
 output_file = 'circos/chip_links.txt'
 output_labels_file = 'circos/chip_labels.txt'
