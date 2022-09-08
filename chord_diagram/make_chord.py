@@ -44,25 +44,28 @@ interactions = {}
 for row in csv.DictReader(open(collapsing_file), delimiter=';'):
 	gene = row['Gene']
 	
-	proteins = list(set(prot2genes[row['Protein']]))
-	if len(proteins) > 1: # skip complexes
-		complexes.add(row['Protein'])
+	if 'cis-' in row['cis_trans_position_1mb_coding_region']:
 		continue
 
-	prot = proteins[0]
-	if gene != prot:
-		p = float(row['p'].replace(',','.'))
-		model = row['model']
-		beta = float(row['beta'].replace(',','.'))
-		inter = 'neg' if beta < 0 else 'pos'
+	proteins = list(set(prot2genes[row['Protein']]))
+	#if len(proteins) > 1: # skip complexes
+	#	complexes.add(row['Protein'])
+	#	continue
 
-		#if model in collapsing_models:
-		if p <= pvalue_threshold:
-			if (gene, prot) in interactions:
-				if interactions[(gene, prot)] != inter:
-					interactions[(gene, prot)] = 'both'
-			else:
-				interactions[(gene, prot)] = inter
+	for prot in proteins:
+		if gene != prot:
+			p = float(row['p'].replace(',','.'))
+			model = row['model']
+			beta = float(row['beta'].replace(',','.'))
+			inter = 'neg' if beta < 0 else 'pos'
+
+			#if model in collapsing_models:
+			if p <= pvalue_threshold:
+				if (gene, prot) in interactions:
+					if interactions[(gene, prot)] != inter:
+						interactions[(gene, prot)] = 'both'
+				else:
+					interactions[(gene, prot)] = inter
 
 print(len(complexes), 'complexes skipped', complexes)
 print(len(interactions), 'total interactions')
