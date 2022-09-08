@@ -45,8 +45,8 @@ for row in csv.DictReader(open(chip_file), delimiter=';'):
 	if 'VAF10' in row['geno']:
 		gene = row['geno'].split('_')[0]
 
-		if gene != 'TET2':
-			continue
+		#if gene != 'TET2':
+		#	continue
 
 		if gene == 'CH':
 			genes = ch_genes
