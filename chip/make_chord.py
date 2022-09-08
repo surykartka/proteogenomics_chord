@@ -4,7 +4,10 @@ chip_file = 'data/Master_CHIP.csv'
 pvalue_threshold = 1e-4
 
 output_file = 'circos/chip_links.txt'
+output_labels_file = 'circos/chip_labels.txt'
 
+
+ch_genes = ['PRPF8', 'BRAF', 'JAK2', 'DNMT3A', 'SUZ12', 'PPM1D', 'ASXL1', 'GNB1', 'MPL', 'TET2', 'SRSF2', 'SF3B1', 'IDH2', 'CBL']
 
 ensembl_gtf = '../chord_diagram/data/Homo_sapiens.GRCh38.107.gtf'
 hgnc_file = '../chord_diagram/data/HGNC_names.txt'
@@ -42,7 +45,7 @@ for row in csv.DictReader(open(chip_file), delimiter=';'):
 	if 'VAF10' in row['geno']:
 		gene = row['geno'].split('_')[0]
 		if gene == 'CH':
-			genes = ['PRPF8', 'BRAF', 'JAK2', 'DNMT3A', 'SUZ12', 'PPM1D', 'ASXL1', 'GNB1', 'MPL', 'TET2', 'SRSF2', 'SF3B1', 'IDH2', 'CBL']
+			genes = ch_genes
 		else:
 			genes = [gene]
 
@@ -81,3 +84,14 @@ with open(output_file, 'w') as f:
 		print(source_chrom, source_start, source_end, target_chrom, target_start, target_end, 
 			'color='+color[interactions[(gene, prot)]], 
 			sep='\t', file=f)
+
+with open(output_labels_file, 'w') as f:
+	for gene in ch_genes:
+
+		gene_pos = ensg2pos[hgnc2ensg[gene]]
+		
+		source_chrom = 'hs{}'.format(gene_pos[0])
+		source_start = gene_pos[1]
+		source_end = gene_pos[2]
+
+		print(source_chrom, source_start, source_end, gene, sep='\t', file=f)
