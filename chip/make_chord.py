@@ -1,7 +1,7 @@
 import csv
 
 chip_file = 'data/Master_CHIP.csv'
-pvalue_threshold = 1e-8
+pvalue_threshold = 1e-4
 
 output_file = 'circos/chip_links.txt'
 output_labels_file = 'circos/chip_labels.txt'
@@ -45,8 +45,8 @@ for row in csv.DictReader(open(chip_file), delimiter=';'):
 	if 'VAF10' in row['geno']:
 		gene = row['geno'].split('_')[0]
 
-		#if gene != 'TET2':
-		#	continue
+		if gene != 'TET2':
+			continue
 
 		if gene == 'CH':
 			genes = ch_genes
