@@ -1,7 +1,7 @@
 import csv
 
 chip_file = 'data/Master_CHIP.csv'
-pvalue_threshold = 1e-4
+pvalue_threshold = 1e-8
 
 output_file = 'circos/chip_links.txt'
 output_labels_file = 'circos/chip_labels.txt'
@@ -45,8 +45,8 @@ for row in csv.DictReader(open(chip_file), delimiter=';'):
 	if 'VAF10' in row['geno']:
 		gene = row['geno'].split('_')[0]
 
-		if gene != 'TET2':
-			continue
+		#if gene != 'TET2':
+		#	continue
 
 		if gene == 'CH':
 			genes = ch_genes
@@ -77,6 +77,10 @@ print()
 genes_all = set()
 with open(output_file, 'w') as f:
 	for gene, prot in interactions:
+
+		if gene == 'JAK2' or prot == 'JAK2':
+			continue
+
 		gene_pos, prot_pos = ensg2pos[hgnc2ensg[gene]], ensg2pos[hgnc2ensg[prot]]
 
 		genes_all.add(gene)
@@ -89,9 +93,6 @@ with open(output_file, 'w') as f:
 		target_chrom = 'hs{}'.format(prot_pos[0])
 		target_start = prot_pos[1]
 		target_end = prot_pos[2]#target_start + gene_width
-
-		if target_chrom == 'hs19':
-			print(prot)
 
 		print(source_chrom, source_start, source_end, target_chrom, target_start, target_end, 
 			'color='+color[interactions[(gene, prot)]], 
