@@ -48,7 +48,7 @@ for row in csv.DictReader(open(chip_file), delimiter=';'):
 		#if gene != 'TET2':
 		#	continue
 
-		if gene == 'CH' or gene == 'JAK2':
+		if gene == 'CH':# or gene == 'JAK2':
 			continue
 
 		if gene == 'CH':
@@ -80,9 +80,6 @@ print()
 genes_all = set()
 with open(output_file, 'w') as f:
 	for gene, prot in interactions:
-
-		if gene == 'JAK2' or prot == 'JAK2':
-			continue
 
 		gene_pos, prot_pos = ensg2pos[hgnc2ensg[gene]], ensg2pos[hgnc2ensg[prot]]
 
