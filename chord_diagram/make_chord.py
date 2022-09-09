@@ -96,12 +96,13 @@ with open(output_labels_file, 'w') as f:
 		gene2count[prot] = gene2count.get(prot, 0) + 1
 
 	gene_count = sorted(gene2count.items(), key=lambda x: x[1], reverse=True)
-	for gene,count in gene_count[:10]:
+	for gene,count in gene_count:
+		if count > 10:
 
-		gene_pos = ensg2pos[hgnc2ensg[gene]]
-		
-		source_chrom = 'hs{}'.format(gene_pos[0])
-		source_start = gene_pos[1]
-		source_end = gene_pos[2]
+			gene_pos = ensg2pos[hgnc2ensg[gene]]
+			
+			source_chrom = 'hs{}'.format(gene_pos[0])
+			source_start = gene_pos[1]
+			source_end = gene_pos[2]
 
-		print(source_chrom, source_start, source_end, gene, sep='\t', file=f)
+			print(source_chrom, source_start, source_end, gene, sep='\t', file=f)
