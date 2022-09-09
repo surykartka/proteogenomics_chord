@@ -48,6 +48,9 @@ for row in csv.DictReader(open(chip_file), delimiter=';'):
 		#if gene != 'TET2':
 		#	continue
 
+		if gene == 'CH' or gene == 'JAK2':
+			continue
+
 		if gene == 'CH':
 			genes = ch_genes
 		else:
