@@ -1213,29 +1213,29 @@
 <g id="plot0">
 <g id="plot0-axis">
 </g>
-<line x1='419.1' y1='1477.5' x2='416.0' y2='1480.1' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<line x1='416.0' y1='1480.1' x2='409.8' y2='1485.1' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<line x1='409.8' y1='1485.1' x2='406.7' y2='1487.7' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="407.1" y="1506.8" font-size="39.0px" font-family="ArialMT" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(-39.4,407.1,1506.8)" >GNPTAB</text>
-<line x1='276.1' y1='796.5' x2='272.2' y2='795.4' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<line x1='272.2' y1='795.4' x2='264.5' y2='793.2' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<line x1='264.5' y1='793.2' x2='260.7' y2='792.1' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="245.2" y="803.4" font-size="39.0px" font-family="ArialMT" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(15.7,245.2,803.4)" >ASGR1</text>
-<line x1='1649.9' y1='621.7' x2='1653.4' y2='619.7' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<line x1='1653.4' y1='619.7' x2='1660.3' y2='615.7' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<line x1='1660.3' y1='615.7' x2='1663.8' y2='613.7' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="1681.5" y="620.7" font-size="39.0px" font-family="ArialMT" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(329.8,1681.5,620.7)" >STAB1</text>
-<line x1='417.4' y1='1475.5' x2='414.3' y2='1478.0' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<line x1='414.3' y1='1478.0' x2='391.7' y2='1462.3' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<line x1='391.7' y1='1462.3' x2='388.6' y2='1464.7' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="388.2" y="1483.8" font-size="39.0px" font-family="ArialMT" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(-37.2,388.2,1483.8)" >STAB2</text>
+<line x1='390.1' y1='1501.3' x2='387.0' y2='1503.9' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<line x1='387.0' y1='1503.9' x2='380.8' y2='1508.9' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<line x1='380.8' y1='1508.9' x2='377.7' y2='1511.5' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<text x="378.1" y="1530.6" font-size="39.0px" font-family="ArialMT" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(-39.4,378.1,1530.6)" >GNPTAB</text>
+<line x1='240.0' y1='786.3' x2='236.1' y2='785.2' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<line x1='236.1' y1='785.2' x2='228.4' y2='783.1' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<line x1='228.4' y1='783.1' x2='224.6' y2='782.0' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<text x="209.1" y="793.2" font-size="39.0px" font-family="ArialMT" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(15.7,209.1,793.2)" >ASGR1</text>
+<line x1='1682.3' y1='602.8' x2='1685.8' y2='600.8' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<line x1='1685.8' y1='600.8' x2='1692.7' y2='596.8' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<line x1='1692.7' y1='596.8' x2='1696.2' y2='594.8' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<text x="1714.0" y="601.8" font-size="39.0px" font-family="ArialMT" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(329.8,1714.0,601.8)" >STAB1</text>
+<line x1='388.4' y1='1499.2' x2='385.3' y2='1501.8' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<line x1='385.3' y1='1501.8' x2='363.3' y2='1486.9' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<line x1='363.3' y1='1486.9' x2='360.1' y2='1489.3' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<text x="359.8" y="1508.4" font-size="39.0px" font-family="ArialMT" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(-37.4,359.8,1508.4)" >STAB2</text>
 </g>
 <defs>
+<pattern id="hline-sparse" width="10" height="10" patternTransform="rotate(0 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="10" y2="0" style="stroke:black;stroke-width:2" /></pattern>
+<pattern id="checker" width="10" height="10" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="10" y2="0" style="stroke:black;stroke-width:2" /><line x1="0" y1="0" x2="0" y2="10" style="stroke:black;stroke-width:2" /></pattern>
 <pattern id="hline" width="10" height="10" patternTransform="rotate(0 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="10" y2="0" style="stroke:black;stroke-width:5" /></pattern>
 <pattern id="checker" width="10" height="10" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="10" y2="0" style="stroke:black;stroke-width:5" /><line x1="0" y1="0" x2="0" y2="10" style="stroke:black;stroke-width:4" /></pattern>
 <pattern id="vline" width="10" height="10" patternTransform="rotate(0 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="10" style="stroke:black;stroke-width:5" /></pattern>
-<pattern id="hline-sparse" width="10" height="10" patternTransform="rotate(0 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="10" y2="0" style="stroke:black;stroke-width:2" /></pattern>
-<pattern id="checker" width="10" height="10" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="10" y2="0" style="stroke:black;stroke-width:2" /><line x1="0" y1="0" x2="0" y2="10" style="stroke:black;stroke-width:2" /></pattern>
 <pattern id="vline-sparse" width="10" height="10" patternTransform="rotate(0 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="10" style="stroke:black;stroke-width:2" /></pattern>
 </defs>
 </svg>
