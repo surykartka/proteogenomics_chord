@@ -1009,7 +1009,7 @@
 <line x1='1435.0' y1='251.2' x2='1437.0' y2='247.7' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='1437.0' y1='247.7' x2='1441.0' y2='240.8' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='1441.0' y1='240.8' x2='1443.0' y2='237.3' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="1457.6" y="232.0" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(300.2,1457.6,232.0)" >DNMT3A</text>
+<text x="1457.6" y="232.0" font-size="26.0px" font-family="Arial-BoldMT" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(300.2,1457.6,232.0)" >DNMT3A</text>
 <line x1='434.2' y1='1655.6' x2='431.6' y2='1658.7' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='431.6' y1='1658.7' x2='411.2' y2='1651.3' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='411.2' y1='1651.3' x2='408.5' y2='1654.2' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
@@ -1025,7 +1025,7 @@
 <line x1='193.0' y1='685.9' x2='189.2' y2='684.4' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='189.2' y1='684.4' x2='181.8' y2='681.5' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='181.8' y1='681.5' x2='178.1' y2='680.1' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="163.3" y="685.1" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(21.3,163.3,685.1)" >PPM1D</text>
+<text x="163.3" y="685.1" font-size="26.0px" font-family="Arial-BoldMT" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(21.3,163.3,685.1)" >PPM1D</text>
 <line x1='367.4' y1='408.6' x2='364.5' y2='405.8' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='364.5' y1='405.8' x2='358.7' y2='400.4' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='358.7' y1='400.4' x2='355.7' y2='397.6' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
@@ -1034,42 +1034,42 @@
 <line x1='1134.5' y1='140.5' x2='1135.7' y2='132.6' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='1135.7' y1='132.6' x2='1136.4' y2='128.6' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <text x="1148.1" y="118.3" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(278.9,1148.1,118.3)" >DDAH1</text>
-<line x1='164.0' y1='774.0' x2='160.2' y2='772.9' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<line x1='160.2' y1='772.9' x2='152.4' y2='770.8' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<line x1='152.4' y1='770.8' x2='148.6' y2='769.8' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="134.4" y="776.3" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(15.1,134.4,776.3)" >PRPF8</text>
 <line x1='401.5' y1='374.1' x2='398.7' y2='371.2' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='398.7' y1='371.2' x2='393.2' y2='365.4' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='393.2' y1='365.4' x2='390.4' y2='362.5' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="374.6" y="361.2" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(46.3,374.6,361.2)" >ASXL1</text>
+<text x="374.6" y="361.2" font-size="26.0px" font-family="Arial-BoldMT" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(46.3,374.6,361.2)" >ASXL1</text>
+<line x1='164.0' y1='774.0' x2='160.2' y2='772.9' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<line x1='160.2' y1='772.9' x2='152.4' y2='770.8' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<line x1='152.4' y1='770.8' x2='148.6' y2='769.8' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<text x="134.4" y="776.3" font-size="26.0px" font-family="Arial-BoldMT" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(15.1,134.4,776.3)" >PRPF8</text>
 <line x1='202.5' y1='662.4' x2='198.8' y2='660.9' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='198.8' y1='660.9' x2='191.5' y2='657.7' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='191.5' y1='657.7' x2='187.8' y2='656.2' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="172.7" y="661.2" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(22.9,172.7,661.2)" >SRSF2</text>
-<line x1='177.7' y1='728.3' x2='173.9' y2='727.1' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<line x1='173.9' y1='727.1' x2='166.3' y2='724.6' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<line x1='166.3' y1='724.6' x2='162.5' y2='723.3' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="147.9" y="729.5" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(18.3,147.9,729.5)" >SUZ12</text>
+<text x="172.7" y="661.2" font-size="26.0px" font-family="Arial-BoldMT" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(22.9,172.7,661.2)" >SRSF2</text>
 <line x1='1644.2' y1='421.3' x2='1647.2' y2='418.6' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='1647.2' y1='418.6' x2='1653.2' y2='413.2' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='1653.2' y1='413.2' x2='1656.1' y2='410.6' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="1672.0" y="410.4" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(318.1,1672.0,410.4)" >SF3B1</text>
+<text x="1672.0" y="410.4" font-size="26.0px" font-family="Arial-BoldMT" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(318.1,1672.0,410.4)" >SF3B1</text>
+<line x1='177.7' y1='728.3' x2='173.9' y2='727.1' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<line x1='173.9' y1='727.1' x2='166.3' y2='724.6' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<line x1='166.3' y1='724.6' x2='162.5' y2='723.3' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<text x="147.9" y="729.5" font-size="26.0px" font-family="Arial-BoldMT" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(18.3,147.9,729.5)" >SUZ12</text>
 <line x1='1002.9' y1='134.0' x2='1002.9' y2='130.0' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='1002.9' y1='130.0' x2='1002.9' y2='122.0' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='1002.9' y1='122.0' x2='1002.9' y2='118.0' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="1013.5" y="106.1" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(270.2,1013.5,106.1)" >GNB1</text>
+<text x="1013.5" y="106.1" font-size="26.0px" font-family="Arial-BoldMT" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(270.2,1013.5,106.1)" >GNB1</text>
 <line x1='1399.5' y1='1768.3' x2='1401.4' y2='1771.9' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='1401.4' y1='1771.9' x2='1405.0' y2='1779.0' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='1405.0' y1='1779.0' x2='1406.9' y2='1782.5' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="1403.5" y="1797.7" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(62.5,1403.5,1797.7)" >BRAF</text>
-<line x1='1865.2' y1='962.7' x2='1869.2' y2='962.5' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<line x1='1869.2' y1='962.5' x2='1877.2' y2='962.2' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<line x1='1877.2' y1='962.2' x2='1881.2' y2='962.0' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="1893.5" y="971.5" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(357.5,1893.5,971.5)" >TET2</text>
+<text x="1403.5" y="1797.7" font-size="26.0px" font-family="Arial-BoldMT" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(62.5,1403.5,1797.7)" >BRAF</text>
 <line x1='1245.6' y1='169.6' x2='1246.7' y2='165.7' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='1246.7' y1='165.7' x2='1249.0' y2='158.0' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='1249.0' y1='158.0' x2='1250.1' y2='154.2' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <text x="1263.6" y="145.7" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(286.5,1263.6,145.7)" >CD1C</text>
+<line x1='1865.2' y1='962.7' x2='1869.2' y2='962.5' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<line x1='1869.2' y1='962.5' x2='1877.2' y2='962.2' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<line x1='1877.2' y1='962.2' x2='1881.2' y2='962.0' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
+<text x="1893.5" y="971.5" font-size="26.0px" font-family="Arial-BoldMT" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(357.5,1893.5,971.5)" >TET2</text>
 <line x1='435.4' y1='1656.6' x2='432.8' y2='1659.7' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='432.8' y1='1659.7' x2='427.6' y2='1665.7' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='427.6' y1='1665.7' x2='424.9' y2='1668.8' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
@@ -1085,26 +1085,26 @@
 <line x1='134.2' y1='983.4' x2='130.2' y2='983.3' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='130.2' y1='983.3' x2='122.2' y2='983.1' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='122.2' y1='983.1' x2='118.2' y2='983.1' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="106.0" y="992.8" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(1.1,106.0,992.8)" >IDH2</text>
+<text x="106.0" y="992.8" font-size="26.0px" font-family="Arial-BoldMT" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(1.1,106.0,992.8)" >IDH2</text>
 <line x1='1068.1' y1='136.7' x2='1068.4' y2='132.7' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='1068.4' y1='132.7' x2='1069.1' y2='124.7' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='1069.1' y1='124.7' x2='1069.4' y2='120.7' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="1080.3" y="109.6" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(274.5,1080.3,109.6)" >MPL</text>
+<text x="1080.3" y="109.6" font-size="26.0px" font-family="Arial-BoldMT" style="text-anchor:start;fill:rgb(0,0,0);" transform="rotate(274.5,1080.3,109.6)" >MPL</text>
 <line x1='482.1' y1='1694.0' x2='479.7' y2='1697.3' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='479.7' y1='1697.3' x2='474.9' y2='1703.7' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='474.9' y1='1703.7' x2='472.5' y2='1706.9' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
-<text x="473.8" y="1722.7" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(-53.3,473.8,1722.7)" >CBL</text>
+<text x="473.8" y="1722.7" font-size="26.0px" font-family="Arial-BoldMT" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(-53.3,473.8,1722.7)" >CBL</text>
 <line x1='330.2' y1='451.1' x2='327.1' y2='448.5' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='327.1' y1='448.5' x2='320.9' y2='443.5' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <line x1='320.9' y1='443.5' x2='317.8' y2='440.9' style="stroke-width:2.0;stroke:rgb(0,0,0);stroke-linecap:round;fill:none;" />
 <text x="301.9" y="441.5" font-size="26.0px" font-family="CMUBright-Roman" style="text-anchor:end;fill:rgb(0,0,0);" transform="rotate(39.3,301.9,441.5)" >CLC</text>
 </g>
 <defs>
-<pattern id="hline-sparse" width="10" height="10" patternTransform="rotate(0 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="10" y2="0" style="stroke:black;stroke-width:2" /></pattern>
-<pattern id="vline" width="10" height="10" patternTransform="rotate(0 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="10" style="stroke:black;stroke-width:5" /></pattern>
 <pattern id="checker" width="10" height="10" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="10" y2="0" style="stroke:black;stroke-width:2" /><line x1="0" y1="0" x2="0" y2="10" style="stroke:black;stroke-width:2" /></pattern>
 <pattern id="checker" width="10" height="10" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="10" y2="0" style="stroke:black;stroke-width:5" /><line x1="0" y1="0" x2="0" y2="10" style="stroke:black;stroke-width:4" /></pattern>
-<pattern id="vline-sparse" width="10" height="10" patternTransform="rotate(0 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="10" style="stroke:black;stroke-width:2" /></pattern>
+<pattern id="vline" width="10" height="10" patternTransform="rotate(0 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="10" style="stroke:black;stroke-width:5" /></pattern>
 <pattern id="hline" width="10" height="10" patternTransform="rotate(0 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="10" y2="0" style="stroke:black;stroke-width:5" /></pattern>
+<pattern id="hline-sparse" width="10" height="10" patternTransform="rotate(0 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="10" y2="0" style="stroke:black;stroke-width:2" /></pattern>
+<pattern id="vline-sparse" width="10" height="10" patternTransform="rotate(0 0 0)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="10" style="stroke:black;stroke-width:2" /></pattern>
 </defs>
 </svg>
