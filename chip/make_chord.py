@@ -41,6 +41,7 @@ for row in csv.DictReader(open(olink_file), delimiter='\t'):
 
 complexes = set()
 interactions = {}
+highest_beta = {}
 for row in csv.DictReader(open(chip_file), delimiter=';'):
 	if 'VAF10' in row['geno']:
 		gene = row['geno'].split('_')[0]
@@ -70,8 +71,11 @@ for row in csv.DictReader(open(chip_file), delimiter=';'):
 					if (gene, prot) in interactions:
 						if interactions[(gene, prot)] != inter:
 							interactions[(gene, prot)] = 'both'
+						if highest_beta[(gene, prot)] < abs(beta):
+							highest_beta[(gene, prot)] = abs(beta)
 					else:
 						interactions[(gene, prot)] = inter
+						highest_beta[(gene, prot)] = abs(beta)
 
 
 print(len(interactions), 'total interactions')
@@ -95,7 +99,7 @@ with open(output_file, 'w') as f:
 		target_end = prot_pos[2]#target_start + gene_width
 
 		print(source_chrom, source_start, source_end, target_chrom, target_start, target_end, 
-			'color='+color[interactions[(gene, prot)]], 
+			'color=%s,thickness=%.2f'%(color[interactions[(gene, prot)]],1+(2*highest_beta[(gene,prot)])), 
 			sep='\t', file=f)
 
 with open(output_labels_file, 'w') as f:

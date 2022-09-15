@@ -1,16 +1,16 @@
 import csv
 
-collapsing_file = 'data/Collapsing_MASTER_Olink_n47k_comb_0.0001.csv'
+collapsing_file = 'data/1500K_proteins/Collapsing_MASTER_Olink_n47k_comb_0.0001.csv'
 pvalue_threshold = 1e-8
 collapsing_models = ['ptv']
 
 output_file = 'circos/collapsing_links.txt'
+output_file_ends = 'circos/collapsing_ends.txt'
 output_labels_file = 'circos/gene_labels.txt'
-
 
 ensembl_gtf = 'data/Homo_sapiens.GRCh38.107.gtf'
 hgnc_file = 'data/HGNC_names.txt'
-olink_file = 'data/olink_protein_map_1.5k_v1-Manifest.txt'
+olink_file = 'data/1500K_proteins/olink_protein_map_1.5k_v1-Manifest.txt'
 
 color = {'pos': 'positive', 'neg': 'negative', 'both': 'both'}
 color_opacity = 0.4
@@ -74,20 +74,25 @@ print()
 
 
 with open(output_file, 'w') as f:
-	for gene, prot in interactions:
-		gene_pos, prot_pos = ensg2pos[hgnc2ensg[gene]], ensg2pos[hgnc2ensg[prot]]
-		
-		source_chrom = 'hs{}'.format(gene_pos[0])
-		source_start = gene_pos[1]
-		source_end = gene_pos[2]#source_start + gene_width
+	with open(output_file_ends, 'w') as h:
+		for gene, prot in interactions:
+			gene_pos, prot_pos = ensg2pos[hgnc2ensg[gene]], ensg2pos[hgnc2ensg[prot]]
+			
+			source_chrom = 'hs{}'.format(gene_pos[0])
+			source_start = gene_pos[1]
+			source_end = gene_pos[2]#source_start + gene_width
 
-		target_chrom = 'hs{}'.format(prot_pos[0])
-		target_start = prot_pos[1]
-		target_end = prot_pos[2]#target_start + gene_width
+			target_chrom = 'hs{}'.format(prot_pos[0])
+			target_start = prot_pos[1]
+			target_end = prot_pos[2]#target_start + gene_width
 
-		print(source_chrom, source_start, source_end, target_chrom, target_start, target_end, 
-			'color='+color[interactions[(gene, prot)]], 
-			sep='\t', file=f)
+			print(source_chrom, source_start, source_end, target_chrom, target_start, target_end, 
+				'color='+color[interactions[(gene, prot)]], 
+				sep='\t', file=f)
+			
+			print(target_chrom, target_start, target_end, 0,
+				'fill_color='+color[interactions[(gene, prot)]], 
+				sep='\t', file=h)		
 
 with open(output_labels_file, 'w') as f:
 	gene2count = {}
