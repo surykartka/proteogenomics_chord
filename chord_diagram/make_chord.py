@@ -7,6 +7,7 @@ collapsing_models = ['ptv']
 output_file = 'circos/collapsing_links.txt'
 output_file_ends = 'circos/collapsing_ends.txt'
 output_labels_file = 'circos/gene_labels.txt'
+output_file_olink = 'circos/olink_proteins.txt'
 
 ensembl_gtf = 'data/Homo_sapiens.GRCh38.107.gtf'
 hgnc_file = 'data/HGNC_names.txt'
@@ -35,10 +36,12 @@ for x in csv.DictReader(open(hgnc_file), delimiter='\t'):
 			hgnc2ensg[y] = x['Ensembl gene ID']
 
 prot2genes = {}
+olink_proteins = set()
 for row in csv.DictReader(open(olink_file), delimiter='\t'):
 	acc = row['UKBPPP_ProteinID'].split(':')[0]
 	prot2genes[acc] = prot2genes.get(acc, []) + [row['HGNC.symbol']]
 	hgnc2ensg[row['HGNC.symbol']] = row['ensembl_id']
+	olink_proteins.add(row['ensembl_id'])
 
 complexes = set()
 interactions = {}
@@ -92,7 +95,19 @@ with open(output_file, 'w') as f:
 			
 			print(target_chrom, target_start, target_end, 0,
 				'fill_color='+color[interactions[(gene, prot)]], 
-				sep='\t', file=h)		
+				sep='\t', file=h)
+
+with open(output_file_olink, 'w') as f:
+	for gene in olink_proteins:
+		gene_pos = ensg2pos[gene]
+
+		source_chrom = 'hs{}'.format(gene_pos[0])
+		source_start = gene_pos[1]
+		source_end = gene_pos[2]
+
+		print(source_chrom, source_start, source_end, 1,
+			sep='\t', file=f)
+		
 
 with open(output_labels_file, 'w') as f:
 	gene2count = {}
